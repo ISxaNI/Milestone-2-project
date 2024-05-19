@@ -3,7 +3,8 @@ const Def = require('../default')
 
 function index () {
     return (
-
+        <div>
+        </div>
     )
 }
 
