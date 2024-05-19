@@ -10,6 +10,8 @@ app.engine('jsx', require('express-react-views').createEngine())
 app.use(express.static('public'))
 app.use(methodOverride('_method'))
 
+
+
 app.get('/', (req, res) => {
     res.send('i dont like panos')
 })
@@ -19,3 +21,5 @@ app.get('*', (req, res) => {
 })
 
 app.listen(3000)
+
+
