@@ -3,11 +3,10 @@ const express = require('express')
 const app = express()
 const methodOverride = require('method-override')
 
-app.use(express.urlencoded({extended:true}))
 
-app.set('view engine','jsx')
-app.engine('jsx',require('express-react-views').createEngine())
-app.use(express.static('public'))
-app.use(methodOverride('_method'))
 
-app.listen(process.env.PORT)
+app.get('/', (req, res) => {
+    res.send('i dont like panos')
+})
+
+app.listen(3000)
