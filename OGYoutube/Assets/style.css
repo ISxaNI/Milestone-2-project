@@ -1,0 +1,279 @@
+
+.subscriptions, .Mychannel, .recommended {
+    margin: 18px;
+}
+body {
+    height: 100vh;
+    background: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.outer {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.img img {
+    width: 100px;
+    display: flex;
+    justify-content: left;
+}
+
+.search {
+    padding: 10px;
+    width: 40%;
+    border-radius: 4px;
+}
+
+.search-input {
+    padding: 8px; 
+    width: 200px;
+}
+
+.search-button {
+    padding: 10px 12px;
+    margin-top: 20px;
+    background-color: silver;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.options {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.browse, .movies, .upload {
+    margin: 40px 0px 0px 10px;
+    font-family: sans-serif;
+    
+}
+
+.profilepic {
+    display: flex;
+}
+.profilepic img {
+    width: 50px;
+
+}
+.profiletext {
+    align-items: center;
+}
+.profile {
+    padding: 25px;
+}
+
+.Mychannel {
+    width: 20%;
+    background: #737369;
+    height: 80vh;
+    flex-wrap: wrap;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.channeldark {
+    background: #2E2E2E;
+    height: 92%;
+}
+
+.Mychannel button {
+    color: white;
+    background-color: #667BE5;
+    width: 91%;
+    margin: 10px;
+    height: 50px;
+    padding: 0px;
+    box-shadow: 2px 2px 2px 2px #4A508A;
+}
+
+.tinysubs {
+    color: white;
+    font-family: sans-serif;
+}
+
+.subpic img {
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 5px;
+    display: flex;
+}
+
+.subtext {
+    color: #838383;
+}
+
+.channeltext {
+    width: 40%;
+    min-width: 60%;
+}
+
+.channelsecond {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.channeldark .tinysubs {
+    font-size: 0.9em;
+}
+.tinysub {
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.names {
+    color: white;
+    font-family: sans-serif;
+}
+
+.subpages img {
+    width: 50px
+}
+.subpages {
+    display: flex;
+}
+
+.subscriptions {
+    width: 50%;
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.subblackbox {
+    width: 100%;
+    background-color: #2E2E2E;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    height: 3.5%;
+    padding: 0px;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+    border-radius: 0px 10px 0px 0px;
+}
+
+.subclass {
+    width: 50%;
+    flex-wrap: wrap;
+    display: flex;
+    padding-top: 10px;
+}
+
+.submanage {
+    color: white;
+    background-color: #2E2E2E;
+    font-family: sans-serif;
+    height: 60px;
+    width: 70px;
+}
+.recommended {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonbox {
+    padding-left: 320px;
+    padding-top: 15px;
+}
+
+.bullet{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.bullettop {
+    width: 98%;
+    height: 60px;
+    background-color: #F0f0F0;
+    border-radius: 10px;
+    display: flex;
+}
+
+.bullettop .profilepics {
+    width: 25%;
+    margin: 6px;
+}
+
+.username {
+    color: white;
+}
+
+.videobox {
+    width: 50px;
+    height: 100px;
+}
+
+.videopic {
+    width: 170px;
+}
+.timeline {
+    color: black;
+    width: 20%;
+    margin-right: 90px;
+}
+.Username {
+    width: 30%;
+    font-size: 0.7em;
+    flex-grow: 4;
+}
+
+.post {
+    width: 30%;
+    font-size: 1em;
+    flex-grow: 4;
+}
+
+.recommendedshadow {
+    font-family: sans-serif;
+    color: #b0b0b0;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+.videobox{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%
+}
+
+.vidimg img {
+    width: 50%;
+}
+
+.vidmsg {
+    width: 30%;
+    max-height: 100px;
+}
+
+.vidimg {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.vidtext {
+    margin: 10px 0 10px 0;
+}
+
+.comments {
+    margin-bottom: 50px
+}
